@@ -35,7 +35,7 @@ spec:
     CREDS = credentials('reem_docker_creds')
     DOCKER_NAMESPACE = 'reemns97'
     SERVICE_NAME = 'department-service'
-    TOKEN=credentials('75b35c4a-cb21-4d20-95b0-8ae9d68c8594')
+    TOKEN=credentials('887df784-90c9-4d08-90ab-690515faaad8')
   }
   stages {
       stage("Build") {
