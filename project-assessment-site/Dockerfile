@@ -1,8 +1,5 @@
-from node:alpine
-run apk add docker docker-compose make bash git
-WORKDIR /app
-COPY package.json /app
+FROM node:lts-alpine3.10
+COPY . .
 RUN npm install
-COPY . /app
-CMD node index.js
-EXPOSE 80
+CMD ["node","index.js"]
+
