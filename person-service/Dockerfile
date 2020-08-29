@@ -10,4 +10,3 @@ copy --from=build /root/level2-project/person-service/target/person-service-1.0.
 
 cmd ["java", "-jar", "person-service-1.0.0.jar"]
 
-expose 80
